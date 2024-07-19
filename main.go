@@ -1,15 +1,14 @@
 package main
 
 import (
-	"context"
-	"encoding/json"
-	"net/http"
-	"time"
+    "context"
+    "encoding/json"
+    "net/http"
+    "time"
     "log"
-
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/options"
+    "go.mongodb.org/mongo-driver/bson"
+    "go.mongodb.org/mongo-driver/mongo"
+    "go.mongodb.org/mongo-driver/mongo/options"
 )
 
 type Server struct {
